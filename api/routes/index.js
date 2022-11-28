@@ -1,5 +1,7 @@
 const express = require('express');
-var mongo = require('mongodb');
+
+
+var url = "mongodb://localhost:27017/mydb";
 
 const router = express.Router();
 
@@ -16,6 +18,7 @@ router.get('/blog/view:id', (request, response) => {
 
 router.post('/blog/new', (request, response) => {
   response.statusCode = 201; // 201 Created
+
 
 // TODO: add data to 
 
