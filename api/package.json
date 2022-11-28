@@ -10,5 +10,10 @@
     "IDC"
   ],
   "author": "Charlie, Kamdin, Gil",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "faker": "^5.5.3",
+    "mongodb": "^4.12.1"
+  }
 }
